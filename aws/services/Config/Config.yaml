@@ -29,6 +29,7 @@ Resources:
       Tags:
       - Key: !Ref 'Ec2VolumeTagKey'
         Value: Ec2VolumeTagValue
+      Encrypted: True
   ConfigRecorder:
     Type: AWS::Config::ConfigurationRecorder
     Properties:
